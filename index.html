@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>محمود متولي | مونتير فيديو احترافي & باقات اشتراك</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="quick-nav">
+    <a href="#home" class="quick-btn" title="الرئيسية">
+        <i class="fas fa-home"></i>
+    </a>
+    <a href="#about" class="quick-btn" title="من أنا">
+        <i class="fas fa-user"></i>
+    </a>
+    <a href="#pricing" class="quick-btn" title="الأسعار">
+        <i class="fas fa-tags"></i>
+    </a>
+    <a href="#portfolio" class="quick-btn" title="أعمالي">
+        <i class="fas fa-folder-open"></i>
+    </a>
+    <a href="#contact" class="quick-btn" title="تواصل معي">
+        <i class="fas fa-comment-dots"></i>
+    </a>
+</div>
+    <div id="offer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="offer-badge">🔥 عرض الحريفة الحصري</div>
+            <h2>وفر 500 جنيه دلوقتي!</h2>
+            <p>باقة الحريفة كاملة لمدة 3 شهور بـ <b>1000 جنيه</b> بس بدلاً من 1500.</p>
+            
+            <div id="modal-countdown" class="modal-countdown">
+                <div><span id="modal-days">00</span><p>يوم</p></div>
+                <div><span id="modal-hours">00</span><p>ساعة</p></div>
+                <div><span id="modal-mins">00</span><p>دقيقة</p></div>
+                <div><span id="modal-secs">00</span><p>ثانية</p></div>
+            </div>
+            
+            <a href="https://wa.me/201040834268?text=أريد%20الاستفادة%20من%20عرض%20الـ3%20شهور%20بـ1000" class="btn">احجز مكاني الآن</a>
+        </div>
+    </div>
+
+    <div id="update-banner" class="update-banner free-project-banner">
+  <div class="banner-content">
+    <span class="sparkle">✨</span>
+    <p>لفترة محدودة: احصل على <b>مونتاج أول فيديو (Reels) مجاناً</b> لتجربة الجودة!</p>
+    <a href="https://wa.me/201040834268?text=أريد%20الحصول%20على%20المشروع%20المجاني%20(تجربة%20مونتاج)" class="btn-banner">
+      سجل الآن <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+  <button id="close-banner" class="close-btn">×</button>
+</div>
+    <header id="home" data-aos="fade-down">
+        <h1>محمود متولي</h1>
+        <p class="subtitle">مونتير فيديو احترافي & صانع محتوى</p>
+        <p style="font-size:1.5rem; max-width:700px; margin:30px auto;">
+مونتاج واسكريبت احترافي بادر بتجربة مشاريع مجانية الأن        </p>
+        <a href="#pricing" class="btn">اشوف الباقات والأسعار</a>
+    </header>
+
+    <section id="about">
+        <h2 data-aos="fade-up">مين أنا؟</h2>
+        <p class="about-text">
+            أهلاً! أنا محمود، مونتير وصانع محتوى شغوف بتحويل الأفكار لقصص مرئية قوية تترك أثراً عند الجمهور.
+        </p>
+        <div class="grid stats">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+                <h3>20+</h3>
+                <p>فيديو مونتاج</p>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
+                <h3>3k+</h3>
+                <p>مشاهدة إجمالية</p>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                <h3>2+</h3>
+                <p>سنين خبرة</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2 data-aos="fade-up">باقات الاشتراك</h2>
+        <div class="grid">
+            
+            <div class="card pricing-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="package-name">الشعبية</div>
+                <div class="price">250 <span>جنيه</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> مونتاج فيديو احترافي</li>
+                    <li class="disabled"><i class="fas fa-times"></i> فيديوهات ريلز</li>
+                    <li class="disabled"><i class="fas fa-times"></i> كتابة سكريبت</li>
+                </ul>
+                <a href="https://wa.me/201040834268?text=أريد%20الاشتراك%20في%20الباقة%20الشعبية" class="btn btn-sm">اشترك الآن</a>
+            </div>
+
+            <div class="card pricing-card featured" data-aos="fade-up" data-aos-delay="200">
+                <div class="badge">🔥 الأكثر طلباً</div>
+                <div class="package-name">الحريفة</div>
+                <div class="price">500 <span>جنيه / فيديو</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> <b>مونتاج سينمائي</b> متكامل</li>
+                    <li><i class="fas fa-check"></i> تحويل الفيديو لـ <b>Reels</b> مجاناً</li>
+                    <li><i class="fas fa-check"></i> كتابة <b>سكريبت</b> يشد الجمهور</li>
+                    <li><i class="fas fa-check"></i> تسليم سريع خلال 48 ساعة</li>
+                </ul>
+                <a href="https://wa.me/201040834268?text=أريد%20الاشتراك%20في%20باقة%20الحريفة" class="btn btn-sm">ابدأ التميز الآن</a>
+            </div>
+
+            <div class="card pricing-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="package-name">اللعيبة</div>
+                <div class="price">400 <span>جنيه</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> مونتاج فيديو احترافي</li>
+                    <li><i class="fas fa-check"></i> فيديوهات ريلز (Reels)</li>
+                    <li class="disabled"><i class="fas fa-times"></i> كتابة سكريبت</li>
+                </ul>
+                <a href="https://wa.me/201040834268?text=أريد%20الاشتراك%20في%20باقة%20اللعيبة" class="btn btn-sm">اشترك الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="offer" class="offer-section" data-aos="fade-up">
+        <div class="countdown-container">
+            <h2>🔥 عرض الـ 3 شهور الخرافي! 🔥</h2>
+            <p style="font-size: 1.6rem; margin-bottom: 20px;">
+                احصل على باقة <b>الحريفة</b> كاملة لمدة 3 شهور بـ <b>1000 جنيه</b> فقط!
+            </p>
+            
+            <div id="countdown" class="countdown">
+                <div><span id="days">00</span><p>أيام</p></div>
+                <div><span id="hours">00</span><p>ساعات</p></div>
+                <div><span id="minutes">00</span><p>دقائق</p></div>
+                <div><span id="seconds">00</span><p>ثواني</p></div>
+            </div>
+
+            <a href="https://wa.me/201040834268?text=أريد%20الاستفادة%20من%20عرض%20الـ3%20شهور%20بـ1000" class="btn offer-btn">
+                احجز مكانك قبل انتهاء الوقت
+            </a>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2 data-aos="fade-up">أعمال سابقة</h2>
+        <div class="grid">
+            <div class="card" data-aos="zoom-in-up">
+                <iframe width="100%" height="215" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <h3>إعلان تجاري سينمائي</h3>
+                <p>Edit + VFX</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 data-aos="zoom-in">جاهز نبدأ مشروعك؟</h2>
+        <a href="https://wa.me/201040834268?text=مرحبا%20محمود%2C%20عايز%20أبدأ%20معاك%20مشروع%20جديد" class="btn">
+            تواصل معي واتساب
+        </a>
+        <p class="email-line">
+            أو عبر البريد: <a href="mailto:mahmoudmetwallybek@gmail.com">mahmoudmetwallybek@gmail.com</a>
+        </p>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

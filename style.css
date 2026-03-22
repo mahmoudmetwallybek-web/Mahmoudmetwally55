@@ -498,3 +498,83 @@ iframe {
 header {
     margin-top: 0; /* تأكد إن مفيش مارجن غريب */
 }
+/* --- تظبيطات الموبايل (Responsive Design) --- */
+@media (max-width: 768px) {
+    
+    /* 1. تصغير البانر العلوي */
+    .update-banner {
+        padding: 8px 10px;
+        font-size: 0.85rem; /* صغر الخط شوية */
+        flex-direction: column; /* الكلام فوق الزرار */
+        gap: 8px;
+    }
+
+    .btn-banner {
+        padding: 4px 12px;
+        font-size: 0.8rem;
+    }
+
+    /* 2. تظبيط الهيدر (العنوان الرئيسي) */
+    header h1 {
+        font-size: 2.2rem !important;
+        margin-top: 20px;
+    }
+
+    header p.subtitle {
+        font-size: 1.1rem !important;
+    }
+
+    /* 3. الكروت (الباقات والأعمال) */
+    .grid {
+        grid-template-columns: 1fr; /* كارت واحد في الصف */
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .pricing-card.featured {
+        transform: scale(1); /* نلغي التكبير عشان مبيطلعش حلو في الموبايل */
+        border-width: 3px;
+    }
+
+    /* 4. زراير التنقل السريع (Quick Nav) */
+    .quick-nav {
+        bottom: 15px;
+        right: 15px;
+        gap: 8px;
+    }
+
+    .quick-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+    }
+
+    /* 5. النافذة المنبثقة (Pop-up) */
+    .modal-content {
+        width: 95%;
+        margin: 20% auto;
+        padding: 25px 15px;
+    }
+
+    .modal-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .modal-countdown {
+        gap: 10px;
+    }
+
+    .modal-countdown div {
+        min-width: 50px;
+        padding: 5px;
+    }
+
+    .modal-countdown span {
+        font-size: 1.2rem;
+    }
+
+    /* 6. السكاشن */
+    section {
+        padding: 40px 15px;
+    }
+}
